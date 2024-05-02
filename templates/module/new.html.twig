@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+{% form_theme form 'tailwind_2_layout.html.twig' %}
+
+{% block title %}Create Patient{% endblock %}
+
+{% block body %}
+    <h1 class='text-center font-bold text-red-500 mb-8'>Add patient</h1>
+    {{ form(form) }}
+{% endblock %}

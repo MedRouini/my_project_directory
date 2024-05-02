@@ -1,0 +1,7 @@
+{% if slug %}
+  <h1>You're looking at blog  {{ slug }}</h1>
+{% elseif page %}
+  <h1>You're looking at blog page  {{ page }}</h1>
+{% else %}
+   Error
+{% endif %}

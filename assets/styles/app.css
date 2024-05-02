@@ -1,3 +1,7 @@
-body {
-    background-color: skyblue;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.error-message {
+    color: red;
+    font-size: 12px;
 }
